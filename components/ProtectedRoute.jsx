@@ -13,7 +13,6 @@ const ProtectedRoute = ({ children }) => {
   //   }, 1000);
   // }, [user, router]);
   // console.log("ue" + new Date().getTime());
-
   return <>{user ? children : null}</>;
 };
 
