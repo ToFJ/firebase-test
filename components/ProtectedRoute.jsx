@@ -5,8 +5,6 @@ import { useEffect } from "react";
 const ProtectedRoute = ({ children }) => {
   const { user, logout } = useAuth();
   const router = useRouter();
-  console.log(user);
-
   // useEffect(() => {
   //   setTimeout(() => {
   //     if (!user) {
